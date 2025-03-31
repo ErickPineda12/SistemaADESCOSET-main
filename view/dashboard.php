@@ -160,7 +160,7 @@ $tipo_usuario = $_SESSION['tipo_usuario'];
     <div class="container">
         <!-- Sidebar -->
         <div class="sidebar">
-            <img src="logoadesco.jpg" alt="Logo de ADESCOSET">
+            <img src="../Image/logoadesco.jpg" alt="Logo de ADESCOSET">
             <h3>Sistema de Cobro</h3>
             <a href="inicio.php">🏠 Inicio</a>
             <a href="derechohabiente.php">👤 Tipo de derechohabiente ⏷</a>

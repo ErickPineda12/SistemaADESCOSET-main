@@ -14,7 +14,7 @@ if (isset($_POST['submit'])) {
     if ($usuario && md5($contrasena) == $usuario['contrasena']) {
         $_SESSION['usuario_id'] = $usuario['id'];
         $_SESSION['tipo_usuario'] = $usuario['tipo_usuario'];
-        header('Location: dashboard.php');
+        header('Location: opciones.php');
         exit();
     } else {
         $error = "Correo o contraseña incorrectos";
@@ -111,16 +111,16 @@ if (isset($_POST['submit'])) {
     <div class="top-bar"></div>
     <div class="container">
         <div class="user-icon">
-            <img src="avatar.png"   alt="Avatar">
+            <img src="../Image/avatar.png"   alt="Avatar">
         </div>
         <h2>INICIO DE SESIÓN</h2>
         <form method="POST" action="login.php">
             <div class="input-container">
-                <img src="avatar.png" alt="Usuario">
+                <img src="../Image/avatar.png" alt="Usuario">
                 <input type="email" name="correo" placeholder="Correo" required>
             </div>
             <div class="input-container">
-                <img src="candado.png" alt="Candado">
+                <img src="../Image/candado.png" alt="Candado">
                 <input type="password" name="contrasena" placeholder="Contraseña" required>
             </div>
             <button type="submit" name="submit">Entrar</button>

@@ -324,7 +324,7 @@ if (isset($_POST['guardar'])) {
     <div class="container">
         <!-- Sidebar -->
         <div class="sidebar">
-            <img src="logoadesco.jpg" alt="Logo de ADESCOSET">
+            <img src="../Image/logoadesco.jpg" alt="Logo de ADESCOSET">
             <h3>Sistema de Cobro</h3>
             <a href="dashboard.php">🏠 Inicio</a>
             <a href="derechohabiente.php">👤 Tipo de derechohabiente ⏷</a>
